@@ -1,0 +1,48 @@
+.itemContact {
+    width: 33.33%;
+    text-align: center;
+}
+.itemContactImg {
+
+}
+.itemContactDesc,
+.itemContactDesc a {
+    font-family: 'HelveticaNeueLTProRoman';
+    font-size: 12px;
+    color: #898888;
+    line-height: 23px;
+    text-decoration: none;
+}
+.itemContactDesc a {
+    padding: 0;
+    font-weight: normal;
+    background: none;
+}
+.itemContactDesc a:hover {
+    text-decoration: underline;
+}
+
+/*Responsive*/
+    @media (max-width: 1199px){}
+    
+    @media (max-width: 991px){}
+    
+    @media (max-width: 900px){}
+    
+    @media (max-width: 767px){}
+
+    @media (max-width: 600px){
+        .itemContact {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    }
+    
+    @media (max-width: 479px){}
+/*Responsive/ */
+
+/*Fonts
+    font-family: 'HelveticaNeueLTProRoman';
+    font-family: 'MontserratLight';
+    font-family: 'merriweatherlight_italic';
+*/

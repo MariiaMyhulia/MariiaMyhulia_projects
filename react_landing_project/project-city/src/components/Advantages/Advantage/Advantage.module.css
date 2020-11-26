@@ -1,0 +1,51 @@
+.advantageBlock {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.advantageIcon {
+    margin-bottom: 35px;
+}
+.advantageIcon img {
+    display: inline-block;
+}
+
+.advantageTitle {
+    margin-bottom: 28px;
+    font-family: 'HelveticaNeueLTProRoman';
+    font-size: 26px;
+    color: #ffffff;
+    line-height: 26px;
+}
+.advantageDesc {
+    font-family: 'HelveticaNeueLTProRoman';
+    font-size: 18px;
+    color: #383838;
+    line-height: 23px;
+}
+
+/*Responsive*/
+    @media (max-width: 1199px){}
+    
+    @media (max-width: 991px){}
+
+    @media (max-width: 900px){
+        .advantageBlock {
+            margin-bottom: 50px;
+        }
+        .advantageIcon {
+            margin-bottom: 25px;
+        }
+    }
+    
+    @media (max-width: 767px){}
+    
+    @media (max-width: 479px){}
+/*Responsive/ */
+
+/*Fonts
+    font-family: 'HelveticaNeueLTProRoman';
+    font-family: 'MontserratLight';
+    font-family: 'merriweatherlight_italic';
+*/

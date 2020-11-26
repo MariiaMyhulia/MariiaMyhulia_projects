@@ -1,0 +1,95 @@
+.teamList__item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    
+    justify-content: flex-start;
+    flex-flow: column nowrap;
+    
+    text-align: center;
+}
+.teamList__item:first-child,
+.teamList__item:last-child{
+    padding-top: 89px;
+}
+
+.teamList__photo {
+    margin-bottom: 21px;
+}
+.teamList__photo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.teamList__name {
+    font-family: 'HelveticaNeueLTProRoman';
+    font-size: 24px;
+    color: #464646;
+    line-height: 26px;
+}
+
+.teamList__job {
+    font-family: 'HelveticaNeueLTProRoman';
+    font-size: 13px;
+    color: #b3b3b3;
+    line-height: 20px;
+}
+.teamList__soc {
+    padding-top: 17px;
+}
+
+/*Responsive*/
+    @media (max-width: 1199px){}
+    
+    @media (max-width: 991px){}
+    
+    @media (max-width: 767px){}
+
+    @media (max-width: 700px){
+        .teamList__item {
+            margin-bottom: 30px;
+            flex-flow: row nowrap;
+            text-align: left;
+        }
+        .teamList__item:first-child,
+        .teamList__item:last-child {
+            padding-top: 0;
+        }
+        
+        .teamList__photo {
+            margin-bottom: 0;
+        }
+        .teamList__meta {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            
+            padding-left: 20px;
+        }
+    }
+    
+    @media (max-width: 479px){}
+
+    @media (max-width: 430px){
+        .teamList__item {
+            flex-flow: column nowrap;
+            text-align: center;
+        }
+        .teamList__photo {
+            margin-bottom: 10px;
+        }
+        .teamList__meta {
+            padding-left: 0;
+        }
+    }
+/*Responsive/ */
+
+/*Fonts
+    font-family: 'HelveticaNeueLTProRoman';
+    font-family: 'MontserratLight';
+    font-family: 'merriweatherlight_italic';
+*/

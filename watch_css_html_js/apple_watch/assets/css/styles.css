@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+.wrapper{
+    position: relative;
+    min-height: 100%;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+.main_body{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    height: 510px;
+    background: url("../img/main.jpg") no-repeat top center;
+    background-size: contain;
+}
+.elements{
+    position: relative;
+    width: 260px;
+    height: 260px;
+
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+.element_numbers{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    flex-flow: column nowrap;
+
+    position: absolute;
+    top: 80px;
+    left: 40px;
+}
+.element_numbers > span{
+    color: #ffffff;
+    font-family: 'Futura PT Extra Italic';
+    font-size: 80px;
+    line-height: 51px;
+    letter-spacing: -5px;
+}
+
+.element_numbers > span.element_min {
+    color: #00ff55;
+}
+
+.element_date{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    flex-flow: column nowrap;
+
+    position: absolute;
+    top: 103px;
+    left: 155px;
+}
+
+.element_date > span {
+    font-family: 'Futura PT Book';
+    color: #ffffff;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 17px;
+}
+
+.element_date > span.element_date_week_day{
+    color: #00ff55;
+}
+
+span.element_date_seconds{
+    font-family: 'Futura PT Extra Italic';
+    font-size: 40px;
+    padding-top: 15px;
+
+    position: relative;
+    left: -15px;
+
+}
+/*FONTS
+     font-family: 'Futura PT Extra Italic';
+     font-family: 'Futura PT Book';
+ */

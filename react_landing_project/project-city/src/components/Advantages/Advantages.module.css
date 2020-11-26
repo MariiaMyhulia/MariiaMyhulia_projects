@@ -1,0 +1,73 @@
+.advantages {
+    position: relative;
+    padding: 237px 0 293px;
+    background: #181818 url(img/advantages-bg.jpg) no-repeat center bottom;
+}
+.advantages:after {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    height: 205px;
+    width: 100%;
+    background: #fff;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    content: '';
+}
+#advantages {}
+
+.headerTop {
+    text-align: center;
+}
+
+.teamList__title {
+}
+.advantages .teamList__title{
+    color: #fff;
+}
+
+.teamList__desc {
+}
+.advantages .teamList__desc {
+    color: #777777;
+}
+.advantagesList {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    
+    padding-top: 217px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.advantagesButton {
+    padding-top: 474px;
+    text-align: center;
+}
+
+/*Responsive*/
+    @media (max-width: 1199px){}
+    
+    @media (max-width: 991px){}
+
+    @media (max-width: 900px){
+        .advantagesList {
+            padding-top: 100px;
+            padding-bottom: 0;
+            flex-flow: column nowrap;
+        }
+        .advantagesButton {
+            padding-top: 70px;
+        }
+    }
+    
+    @media (max-width: 767px){}
+    
+    @media (max-width: 479px){}
+/*Responsive/ */

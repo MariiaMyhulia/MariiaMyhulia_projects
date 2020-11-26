@@ -1,0 +1,47 @@
+.form {
+}
+.form__area {
+
+}
+
+.form__areaField {
+}
+.form__areaField input,
+.form__areaField textarea,
+.form__areaField button {
+}
+.form__areaField.form__areaFieldText textarea {
+}
+
+.form__areaField.form__areaSubmit button {
+}
+.form__areaField.form__areaSubmit button:hover {
+}
+
+/*Responsive*/
+    @media (max-width: 1199px){}
+    
+    @media (max-width: 991px){}
+    
+    @media (max-width: 900px){
+        .form__area {
+            max-width: 100%;
+        }
+    }
+    
+    @media (max-width: 767px){}
+
+    @media (max-width: 600px){
+        .form {
+            padding-top: 30px;
+        }
+    }
+    
+    @media (max-width: 479px){}
+/*Responsive/ */
+
+/*Fonts
+    font-family: 'HelveticaNeueLTProRoman';
+    font-family: 'MontserratLight';
+    font-family: 'merriweatherlight_italic';
+*/

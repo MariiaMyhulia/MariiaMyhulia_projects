@@ -1,0 +1,98 @@
+/*General*/
+    *{
+        padding: 0;
+        margin: 0;
+        
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: 'MontserratLight'; /*Сделаю шрифтом по умолчанию*/
+    }
+/*General/ */
+
+/*Form*/
+    ::-webkit-input-placeholder { font-family: 'HelveticaNeueLTProRoman'; font-size: 15px; color: #898888; }
+    :-ms-input-placeholder { font-family: 'HelveticaNeueLTProRoman'; font-size: 15px; color: #898888; }
+    ::-ms-input-placeholder { font-family: 'HelveticaNeueLTProRoman'; font-size: 15px; color: #898888; }
+    ::placeholder { font-family: 'HelveticaNeueLTProRoman'; font-size: 15px; color: #898888; }
+
+    .form {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: center;
+        padding-top: 149px;
+    }
+    .form__area {
+    
+    }
+    
+    .form__areaField {
+        margin-bottom: 20px;
+    }
+    .form__areaField input,
+    .form__areaField textarea,
+    .form__areaField button {
+        width: 770px;
+        padding: 19px 15px 15px;
+        max-width: 100%;
+        outline: none;
+        border: 1px solid #999999;
+    }
+    .form__areaField.form__areaFieldText textarea {
+        resize: none;
+        height: 195px;
+    }
+    
+    .form__areaField.form__areaSubmit button {
+        background: rgba(22, 22, 22, 1.0);
+        font-family: 'HelveticaNeueLTProRoman';
+        font-size: 17px;
+        color: #fefefe;
+        cursor: pointer;
+        border-color: #161616;
+        
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    .form__areaField.form__areaSubmit button:hover {
+        background: rgba(22, 22, 22, 0.85);
+    }
+/*Form/ */
+
+/*Extra classes*/
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .clearfix:after {
+        display: block;
+        clear: both;
+        content: '';
+    }
+    
+    .titleBlock {
+        margin-bottom: 2px;
+        font-family: 'HelveticaNeueLTProRoman';
+        color: #1d1e1f;
+        font-size: 34px;
+        font-weight: normal;
+    }
+    .descBlock {
+        font-family: 'merriweatherlight_italic';
+        font-size: 16px;
+        color: #898888;
+    }
+/*Extra classes/ */
+
+/*Fonts
+    font-family: 'HelveticaNeueLTProRoman';
+    font-family: 'MontserratLight';
+    font-family: 'merriweatherlight_italic';
+*/
