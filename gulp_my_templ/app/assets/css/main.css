@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ccc;
+}
+.person {
+  display: -ms-grid;
+  display: grid;
+  border: 1px solid #553c3c;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+}
+.person .person_title {
+  position: relative;
+  padding-bottom: 20px;
+}
+.person .person_title:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background-color: #4571e0;
+  content: '';
+}
